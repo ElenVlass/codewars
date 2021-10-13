@@ -17,7 +17,7 @@ export default function calculateYears(principal, interest, tax, desired) {
 }
 
  console.log(calculateYears(1000, 0.05, 0.18, 1100) ); // 3;
- 
+
  /* Example:
 
   Let P be the Principal = 1000.00      
