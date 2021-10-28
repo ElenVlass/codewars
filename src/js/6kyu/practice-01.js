@@ -1,5 +1,5 @@
 /* task 6 kyu on codewars */
-function alphabetPosition(text) {
+export function alphabetPosition(text) {
     text = text.toLowerCase().split('')
     let position = [];
     let alfabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
@@ -10,15 +10,15 @@ function alphabetPosition(text) {
     }
     return position.join(' ');
 }
-  console.log(alphabetPosition("The sunset sets at twelve o' clock.")); //"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"
+  // console.log(alphabetPosition("The sunset sets at twelve o' clock.")); //"20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11"
 
-  function abbrevName(name){
+  export  function abbrevName(name){
 
     return name.toUpperCase().split(' ').map(word => word[0]).join('.') 
   }
     // console.log(abbrevName("Patrick Feenan"));
 
-  function songDecoder(song){
+    export function songDecoder(song){
 
     return song.split('WUB').filter(Boolean).join(' ')
   }

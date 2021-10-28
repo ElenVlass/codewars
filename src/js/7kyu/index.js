@@ -1,0 +1,5 @@
+export {rowSumOddNumbers} from './sum_of odd numbers'
+export {calculateYears} from './Mr. Scrooge'
+export {evaporator} from './elevator'
+export {accum} from './Mumbling'
+export {solution} from './StringEndsWith'

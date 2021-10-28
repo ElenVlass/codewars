@@ -33,3 +33,14 @@ console.log(likes(["Alex"]));
 console.log(likes(["Alex", "Jacob"]));
 console.log(likes(["Alex", "Jacob", "Mark"]));
 console.log(likes(["Alex", "Jacob", "Mark", "Max"]));
+
+// function evaporator (content, evap_per_day, threshold) {
+//     let years = 0
+// while (content < threshold) {
+//     content -= content*evap_per_day*0.01
+//     years += 1
+// }
+// return years
+// }
+
+// console.log('evaporator', evaporator(10, 10, 5)) // 29;

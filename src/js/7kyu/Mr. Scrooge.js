@@ -7,7 +7,7 @@ After paying taxes 'T' for the year the new sum is re-invested.
 
 Note to Tax: not the invested principal is taxed, but only the year's accrued interest*/
 
-export default function calculateYears(principal, interest, tax, desired) {
+export function calculateYears(principal, interest, tax, desired) {
     let sum=principal
     const increase = interest-interest*tax
  for (let year = 1; year < 100 ; year++) {

@@ -10,7 +10,7 @@ Calculate the sum of the numbers in the n-th row of this triangle
 (starting at index 1) e.g.: (Input --> Output) 
 1 -->  1
 2 --> 3 + 5 = 8 */
-export default function rowSumOddNumbers(n) {
+export function rowSumOddNumbers(n) {
 	return Math.pow(n, 3);
 }
 

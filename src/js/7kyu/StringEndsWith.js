@@ -5,7 +5,7 @@ Examples:
 solution('abc', 'bc') // returns true
 solution('abc', 'd') // returns false 
 */
-  function solution(str, ending){
+ export function solution(str, ending){
     const length=ending.length
   let newStr=str.split('').slice(-length).join('');
   const result = newStr.includes(ending)
