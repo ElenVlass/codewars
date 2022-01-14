@@ -63,4 +63,4 @@ export function numberOfDuplicates (srt) {
 let hello = "   Hello, World!  ";
 let wsRegex = /^\S(\w+)\S$/; // Change this line
 let result = hello.match(wsRegex);
-console.log(result);
+// console.log(result);

@@ -3,4 +3,6 @@
 // export {evaporator} from './elevator'
 // export {accum} from './Mumbling'
 // export {solution} from './StringEndsWith'
-export {VowelCount} from './VowelCount'
+// export {VowelCount} from './VowelCount'
+// export {arithmetic} from './MakeArithmeticFunction'
+export {square} from './Square Every Digit'
